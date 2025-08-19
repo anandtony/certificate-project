@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h2>Enter Your Name to Generate Certificate</h2>
+  
+  <input type="text" id="certNoInput" placeholder="Enter certificate number">
+  <input type="text" id="nameInput" placeholder="Enter your full name">
+  <button onclick="generateCertificate()">Generate</button>
+  <button onclick="downloadCertificate()">Download PDF</button>
+  <div class="certificate" id="certificate">
+    <p class="cert-no" id="certNo"></p>
+    <p class="name" id="studentName">[Student Name]</p>
+    <p class="date" id="date"> _______</p>
+    
+  </div>
+<!-- html2pdf library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

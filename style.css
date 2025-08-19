@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .certificate {
+    width: 1000px;   /* adjust based on your Canva design */
+    height: 700px;
+    margin: 20px auto;
+    position: relative;
+    background: url("certificate-template.png") no-repeat center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .certificate h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .certificate .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+  }
+
+  .cert-no {
+    position: absolute;
+    top: 444px;
+    right: 428px;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+  .name {
+    position: absolute;
+    top: 332px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color: #206546;
+}
+  
+.date {
+    position: absolute;
+    bottom: 252.1px;
+    left: 675px;
+    font-size: 18px;
+}
+  
